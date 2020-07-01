@@ -16,6 +16,7 @@ setup(
     test_suite = "tests",
 
     install_requires = [
+        "Cython",
         "PyStemmer==2.0.0.1",
         "argparse==1.4.0",
         ],
