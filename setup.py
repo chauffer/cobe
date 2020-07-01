@@ -16,8 +16,7 @@ setup(
     test_suite = "tests",
 
     install_requires = [
-        "Cython",
-        "PyStemmer==2.0.0.1",
+        "PyStemmer @ git+git://github.com/snowballstem/pystemmer@master#egg=PyStemmer",
         "argparse==1.4.0",
         ],
 
