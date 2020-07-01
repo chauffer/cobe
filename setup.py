@@ -16,9 +16,8 @@ setup(
     test_suite = "tests",
 
     install_requires = [
-        "PyStemmer==1.3.0",
-        "argparse==1.2.1",
-        "irc==12.1.1"
+        "PyStemmer==2.0.0.1",
+        "argparse==1.4.0",
         ],
 
     classifiers = [
